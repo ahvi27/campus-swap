@@ -1,8 +1,8 @@
 import React, {useState, useEffect, useRef} from 'react';
 import {createRoot} from 'react-dom/client';
-import {Search, Heart, Plus, ArrowUpRight, ArrowRight, BookOpen, Laptop, Armchair, Grid2X2, SlidersHorizontal, X, MapPin, Repeat2, Leaf, ShieldCheck, Check, ShoppingBag, Mail} from 'lucide-react';
+import {Search, Heart, Plus, ArrowUpRight, ArrowRight, BookOpen, Laptop, Armchair, Shirt, Grid2X2, SlidersHorizontal, X, MapPin, Repeat2, Leaf, ShieldCheck, Check, ShoppingBag, Mail} from 'lucide-react';
 import './styles.css';
-const categories=[['All finds',Grid2X2],['Textbooks',BookOpen],['Tech',Laptop],['Dorm essentials',Armchair]];
+const categories=[['All finds',Grid2X2],['Textbooks',BookOpen],['Tech',Laptop],['Dorm essentials',Armchair],['Clothing',Shirt]];
 const seed=[
 {id:'1',title:'Calculus: Early Transcendentals',category:'Textbooks',price:850,condition:'Like new',seller:'Maya',campus:'Addis Ababa University',description:'Sample listing. A clean textbook with a few pencil notes. Perfect for first-year calculus.',art:'book',color:'#d4e5dd',label:'CALCULUS',created:6},
 {id:'2',title:'Wireless noise-canceling headphones',category:'Tech',price:2400,condition:'Good',seller:'Daniel',campus:'Addis Ababa University',description:'Sample listing. Comfortable headphones for focused study sessions. Charging cable included.',art:'headphones',color:'#eadfd5',created:5},
